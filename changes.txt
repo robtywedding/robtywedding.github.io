@@ -1,0 +1,13 @@
+#ffffff bg -> 001424
+
+   footer div:last-of-type {
+            display: none;
+          }
+
+#231f20 text col except A links -> #f3f3f3
+
+header css -> filter: invert(1)
+
+line 5762 -> rsvp button change color with new class, !important .css-kexelq:not(:hover) {
+
+.css-ir5fkz / css-1ke5yxf (line 5690), renders as css-1yltisf -> display none
