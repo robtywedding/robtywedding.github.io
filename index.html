@@ -105,17 +105,14 @@
           };
           break;
         default:
-          zola.env = "development";
+          zola.env = "production";
           zola.feature = {
-            productBadging: true,
-            useNewCmsNav: true,
-            newPlanningDash: true,
+            productBadging: false,
+            useNewCmsNav: false,
+            newPlanningDash: false,
             newSailthruUserVars: true,
           };
-          window.optimizelyShowLargeGrid = false;
-          window.optimizelyProductInfoHover = false;
-          window.optimizelyOpenFullPagePdp = false;
-          window.optimizelyTeaseRegistryView = false;
+          break;
       }
 
       zola.tracking = {};
